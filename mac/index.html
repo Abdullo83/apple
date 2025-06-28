@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MacBook Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Supercharged for pros.</h1>
+        </header>
+
+        <section class="description">
+            <p>The most powerful MacBook Pro ever is here. With the blazing-fast M1 Pro or M1 Max chip – the first Apple
+                silicon designed for pros – you get groundbreaking performance and amazing battery life. Add to that a
+                stunning Liquid Retina XDR display, the best camera and audio ever in a Mac notebook, and all the ports
+                you need. The first notebook of its kind, this MacBook Pro is a beast.</p>
+        </section>
+
+        <div class="product-section">
+            <div class="product-image">
+                <a href=""><img id="macbook-image" src="macbook-pro-white.png" alt="MacBook Pro"></a>
+            </div>
+            <div class="product-details">
+                <h2>Macbook Pro</h2>
+                <p class="color-text" id="selected-color">White</p>
+                <p class="price" id="product-price">$1,999</p>
+
+                <div class="color-options">
+                    <button class="color-button active" data-color="white" data-base-price="1999">White</button>
+                    <button class="color-button" data-color="space-grey" data-base-price="1999">Space Grey</button>
+                </div>
+
+                <div class="ssd-options">
+                    <label class="ssd-option">
+                        <input type="radio" name="ssd" value="512GB" data-price-add="0" checked>
+                        <span>512 GB SSD</span>
+                    </label>
+                    <label class="ssd-option">
+                        <input type="radio" name="ssd" value="1TB" data-price-add="200">
+                        <span>1 TB SSD</span>
+                        <span class="price-add">+$200</span>
+                    </label>
+                    <label class="ssd-option">
+                        <input type="radio" name="ssd" value="2TB" data-price-add="600">
+                        <span>2 TB SSD</span>
+                        <span class="price-add">+$600</span>
+                    </label>
+                    <label class="ssd-option">
+                        <input type="radio" name="ssd" value="4TB" data-price-add="1200">
+                        <span>4 TB SSD</span>
+                        <span class="price-add">+$1,200</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
